@@ -1,0 +1,71 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import 'oldstyle';
+$primary-color: #152238;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    padding: 0 0 4em;
+}
+
+.header {
+    border-color: $primary-color;
+}
+
+.footer {
+    background-color: $primary-color;
+    color: #707070;
+}
+
+.nav {
+    a {
+        color: $primary-color;
+    }
+
+    .active a,
+    .a:hover {
+        color: #707070;
+    }   
+}
+
+.fab {
+    margin-left: 0.5em;
+}
+
+.flash-img {
+    margin-top: -2.5em;
+    height: 10em;
+}
+
+/* Home-page */
+
+.home-pic {
+    height: 20em;
+    width: 20em;
+    float: right;
+    margin-left: 2em;
+}
+
+/* Report-page */
+
+.report-link {
+    color: $primary-color;
+}
