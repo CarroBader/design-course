@@ -1,0 +1,40 @@
+.landingpagekmom {
+    display: flex;
+    gap: 1em 1em;
+    padding: 0 1em;
+}
+
+.kmom-div {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+
+}
+
+.report-box {
+    border: 1px solid #000;
+}
+
+.list-box {
+    background-color: #152238;
+}
+
+.report-link {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.active {
+    color: #707070 !important;
+}
+
+@media (max-width: 767px) {
+    .content-desktop {
+        display: none !important;
+    }
+}

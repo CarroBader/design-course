@@ -7,6 +7,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 @import 'oldstyle';
+@import 'report';
+@import 'kmom';
+
 $primary-color: #152238;
 
 * {
@@ -62,10 +65,4 @@ h6 {
     width: 20em;
     float: right;
     margin-left: 2em;
-}
-
-/* Report-page */
-
-.report-link {
-    color: $primary-color;
 }
