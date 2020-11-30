@@ -16,8 +16,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -57,9 +60,6 @@
             </div>
         </div>
     </div>
-    <div class="middleline">
-    <hr>
-    </div>
     <div class="main" role="main">
         <div class="landingpage">
             {{ content }}
@@ -76,7 +76,7 @@
                     </a>
                 {% endfor %}
             </div>
-            <p>
+            <p class="footer-text">
                 Carolines portfolio 2020
             </p>
         </div>

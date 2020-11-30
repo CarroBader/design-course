@@ -3,8 +3,7 @@ Title: Startsida
 Description: This is our index page.
 ---
 
-Om mig
-==========================
+<h1 class="headline-margin">Om mig</h1>
                  
 Jag heter Caroline Bader och är ursprungligen från Ronneby nere i Blekinge. Nu bor jag i Göteborg
 där jag bott från och till sen 2008. Ett halvår har jag spenderat i Australien för diverse äventyr

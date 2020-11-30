@@ -2,6 +2,7 @@
     display: flex;
     gap: 1em 1em;
     padding: 0 1em;
+    margin-top: 2em;
 }
 
 .kmom-div {
@@ -22,7 +23,7 @@
 }
 
 .report-link {
-    color: #fff;
+    color: #8c6b26;
 }
 
 ul {
@@ -30,11 +31,15 @@ ul {
 }
 
 .active {
-    color: #707070 !important;
+    color: #fff !important;
 }
 
 @media (max-width: 767px) {
     .content-desktop {
         display: none !important;
     }
+}
+
+h2 {
+    color: #fff;
 }

@@ -1,5 +1,5 @@
 @import 'typography';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'oldstyle';
 @import 'report';
@@ -99,6 +99,10 @@ h1 {
     color: $font-color-secondary !important;
 }
 
+.home-pic {
+    filter: grayscale(40%);
+}
+
 .headline-margin {
     margin-top: 1em;
 }
@@ -106,4 +110,3 @@ h1 {
 .list-box {
     margin-top: 2em;
 }
-
