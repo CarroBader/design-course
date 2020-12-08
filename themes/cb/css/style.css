@@ -6764,10 +6764,15 @@ input::-moz-focus-inner, button::-moz-focus-inner {
   color: #fff;
 }
 
+.desc-report {
+  color: #8c6b26;
+}
+
 .landingpagekmom {
   display: flex;
   gap: 1em 1em;
   padding: 0 1em;
+  margin-top: 2em;
 }
 
 .kmom-div {
@@ -6787,7 +6792,7 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 }
 
 .report-link {
-  color: #fff;
+  color: #8c6b26;
 }
 
 ul {
@@ -6795,7 +6800,7 @@ ul {
 }
 
 .active {
-  color: #707070 !important;
+  color: #fff !important;
 }
 
 @media (max-width: 767px) {
@@ -6803,25 +6808,24 @@ ul {
     display: none !important;
   }
 }
+h2 {
+  color: #fff;
+}
+
 .main {
   padding: 0 0 4em;
+  background-color: #fff;
 }
 
 .header {
-  border-color: #152238;
+  height: 10em;
+  border: 0;
+  background-color: #152238;
 }
 
 .footer {
   background-color: #152238;
-  color: #4f5d75;
-}
-
-.nav a {
-  color: #152238;
-}
-.nav .active a,
-.nav .a:hover {
-  color: #4f5d75;
+  color: #8c6b26;
 }
 
 .fab {
@@ -6829,8 +6833,53 @@ ul {
 }
 
 .flash-img {
-  margin-top: -2.5em;
-  height: 10em;
+  height: 7em;
+  float: right;
+}
+
+p {
+  color: #000;
+}
+
+h1 {
+  color: #000;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.frame-div {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar */
+.nav a {
+  color: #8c6b26;
+}
+.nav .active a,
+.nav .a:hover {
+  color: #fff;
+}
+
+.title * {
+  color: #8c6b26;
 }
 
 /* Home-page */
@@ -6841,11 +6890,43 @@ ul {
   margin-left: 2em;
 }
 
+/* Analysis */
+.analysis-h2 {
+  color: #000;
+}
+
+.analysis-h3 {
+  color: #000;
+}
+
+.webpage-div {
+  border: 1px solid #000;
+  padding: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.analysis-link a {
+  color: #8c6b26 !important;
+}
+
 /* Footer */
 .icon-color {
-  color: #4f5d75;
+  color: #8c6b26;
 }
 
 .icon-margin {
   margin-left: 0.5em;
+}
+
+.footer-text {
+  color: #8c6b26 !important;
+}
+
+.headline-margin {
+  margin-top: 1em;
+}
+
+.list-box {
+  margin-top: 2em;
 }
