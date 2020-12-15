@@ -40,7 +40,7 @@ Below we've shown some examples of locations and their corresponding URLs:
     <tbody>
         <tr>
             <td>content/index.md</td>
-            <td><a href="%base_url%">/</a></td>
+            <td><a href="%base_url%" aria-label="index">/</a></td>
         </tr>
         <tr>
             <td>content/sub.md</td>
@@ -48,7 +48,7 @@ Below we've shown some examples of locations and their corresponding URLs:
         </tr>
         <tr>
             <td>content/sub/page.md</td>
-            <td><a href="%base_url%?docs/sub/page">?sub/page</a></td>
+            <td><a href="%base_url%?docs/sub/page" aria-label="page">?sub/page</a></td>
         </tr>
     </tbody>
 </table>

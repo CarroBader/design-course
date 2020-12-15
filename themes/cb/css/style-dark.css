@@ -6792,7 +6792,7 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 }
 
 .report-link {
-  color: #8c6b26;
+  color: #fff;
 }
 
 ul {
@@ -6823,6 +6823,10 @@ h2 {
   background-color: #152238;
 }
 
+.nav a {
+  color: #fff !important;
+}
+
 .footer {
   background-color: #152238;
   color: #8c6b26;
@@ -6842,7 +6846,7 @@ p {
 }
 
 h1 {
-  color: #fff;
+  color: #fff !important;
 }
 
 img,
@@ -6908,6 +6912,7 @@ video {
 
 .analysis-link a {
   color: #8c6b26 !important;
+  font-weight: 700;
 }
 
 /* Footer */
@@ -6920,7 +6925,7 @@ video {
 }
 
 .footer-text {
-  color: #8c6b26 !important;
+  color: #fff !important;
 }
 
 .home-pic {

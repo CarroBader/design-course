@@ -16,6 +16,10 @@
     background-color: $background-color-secondary;
 }
 
+.nav a {
+    color: $font-color-third !important;
+}
+
 .footer {
     background-color: $background-color-secondary;
     color: $font-color-secondary;
@@ -106,7 +110,8 @@ video {
 }
 
 .analysis-link a {
-    color: $font-color-secondary !important;
+    color: $font-color-four !important;
+    font-weight: 700;
 }
 
 /* Footer */
@@ -120,7 +125,7 @@ video {
 }
 
 .footer-text {
-    color: $font-color-secondary !important;
+    color: $font-color-third !important;
 }
 
 .headline-margin {

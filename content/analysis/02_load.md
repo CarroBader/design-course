@@ -6,9 +6,9 @@ Template: index
 
 <div class="kmom-div list-box content-desktop">
     <ul>
-        <li><a href="01_colors" class="report-link">Colors</a></li>
-        <li><a href="02_load" class="report-link active">Load Time</a></li>
-        <li><a href="03_design_principles" class="report-link">Design Principal</a></li>
+        <li><a href="01_colors" class="report-link" aria-label="colors">Colors</a></li>
+        <li><a href="02_load" class="report-link active" aria-label="laod time">Load Time</a></li>
+        <li><a href="03_design_principles" class="report-link" aria-label="design principal">Design Principal</a></li>
     </ul>
 </div>
 
@@ -31,27 +31,27 @@ I denna analys har det valt att titta på hemsidor från tre hemsidor från likn
 
 <div class="webpage-div">
     <h3 class="analysis-h3">Formula One<h3>
-    <img src="{{ base_url }}../../../assets/img/f1.png">
+    <img src="{{ base_url }}../../../assets/img/f1.png" alt="f1">
     <hr>
-    <a href="https://docs.google.com/spreadsheets/d/1rC1J31MOPyrSSSpEjfvFdh-JON--ivfVIEHcsazMNqI/edit?usp=sharing" style="color:#152238" target="_blank">Google sheet data</a>
+    <a href="https://docs.google.com/spreadsheets/d/1rC1J31MOPyrSSSpEjfvFdh-JON--ivfVIEHcsazMNqI/edit?usp=sharing" style="color:#152238" target="_blank" aria-label="google data">Google sheet data</a>
     <p>Förbättring</p>
     <p>Formula One klarade sig hyfsat bra i Google Pagespeed testet för desktop men var långt ifrån i mobilmätningen. Laddningstiden var även lite över 3s på alla mätningarna, så finna lite att jobba med där med.</p>
 </div>
 
 <div class="webpage-div">
     <h3 class="analysis-h3">La Liga<h3>
-    <img src="{{ base_url }}../../../assets/img/laliga.png">
+    <img src="{{ base_url }}../../../assets/img/laliga.png" alt="ll">
     <hr>
-    <a href="https://docs.google.com/spreadsheets/d/1rC1J31MOPyrSSSpEjfvFdh-JON--ivfVIEHcsazMNqI/edit?usp=sharing" style="color:#152238" target="_blank">Google sheet data</a>
+    <a href="https://docs.google.com/spreadsheets/d/1rC1J31MOPyrSSSpEjfvFdh-JON--ivfVIEHcsazMNqI/edit?usp=sharing" style="color:#152238" target="_blank" aria-label="google data">Google sheet data</a>
     <p>Förbättring</p>
     <p>La Liga klarade sig vädligt dåligt i Google Pagespeed testet för både desktop och mobil så där finns mycket att jobba med.</p>
 </div>
 
 <div class="webpage-div">
     <h3 class="analysis-h3">NBA<h3>
-    <img src="{{ base_url }}../../../assets/img/nba.png">
+    <img src="{{ base_url }}../../../assets/img/nba.png" alt="nba">
     <hr>
-    <a href="https://docs.google.com/spreadsheets/d/1rC1J31MOPyrSSSpEjfvFdh-JON--ivfVIEHcsazMNqI/edit?usp=sharing" style="color:#152238" target="_blank">Google sheet data</a>
+    <a href="https://docs.google.com/spreadsheets/d/1rC1J31MOPyrSSSpEjfvFdh-JON--ivfVIEHcsazMNqI/edit?usp=sharing" style="color:#152238" target="_blank" aria-label="google data">Google sheet data</a>
     <p>Förbättring</p>
     <p>NBA klarade sig hyfsat bra i Google Pagespeed testet för desktop men var väldigt långt ifrån i mobilmätningen.</p>
 </div>
@@ -83,9 +83,9 @@ Skulle säga att okej lddningstid är mellan 2-3 sekunder, vilket de tre sidorna
 
 <p>Google Pagespeed</p>
 <p>Chrome Devtools</p>
-<p class="analysis-link"><a href="https://www.formula1.com">F1 - hemsida</a></p>
-<p class="analysis-link"><a href="https://www.laliga.com">La Liga - hemsida</a></p>
-<p class="analysis-link"><a href="https://es.nba.com">NBA -  hemsida</a></p>
+<p class="analysis-link"><a href="https://www.formula1.com" aria-label="f1">F1 - hemsida</a></p>
+<p class="analysis-link"><a href="https://www.laliga.com" aria-label="la liga">La Liga - hemsida</a></p>
+<p class="analysis-link"><a href="https://es.nba.com" aria-label="nba">NBA -  hemsida</a></p>
 
 <h2 class="analysis-h2">Övrigt</h2>
 

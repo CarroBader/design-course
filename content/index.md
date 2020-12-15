@@ -11,7 +11,7 @@ och 1 år bodde jag och pluggade i Kina. Året i Kina gjordes möjligt genom min
 Jag pluggade en program som inriktade sig internationellt och innehöll även ämnerna ekonomi,
 marknadsföring och IT. Det var under den utbildningen där min passion för programmering föddes.
 
-<img class="home-pic" src="{{ base_url }}../../assets/img/tardis.jpg">
+<img class="home-pic" src="{{ base_url }}../../assets/img/tardis.jpg" alt="tardis&me">
 
 Jag tog examen 2018 och har de två senaste åren jobbad med programmering i olika språk och ramverk. 
 Mitt primära språk är C# men har även jobbat lite i JavaScript främst via ramverket Angular.

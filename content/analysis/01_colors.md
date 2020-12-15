@@ -6,9 +6,9 @@ Template: index
 
 <div class="kmom-div list-box content-desktop">
     <ul>
-        <li><a href="01_colors" class="report-link active">Colors</a></li>
-        <li><a href="02_load" class="report-link">Load Time</a></li>
-        <li><a href="03_design_principles" class="report-link">Design Principal</a></li>
+        <li><a href="01_colors" class="report-link active" aria-label="colors">Colors</a></li>
+        <li><a href="02_load" class="report-link" aria-label="load time">Load Time</a></li>
+        <li><a href="03_design_principles" class="report-link" aria-label="design principal">Design Principal</a></li>
     </ul>
 </div>
 
@@ -30,7 +30,7 @@ I denna analys har det valt att titta på hemsidor från företag som är i samm
 
 <div class="webpage-div">
     <h3 class="analysis-h3">Zara<h3>
-    <img src="{{ base_url }}../../../assets/img/zara.png">
+    <img src="{{ base_url }}../../../assets/img/zara.png" alt="zara">
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
         <td style="height: 50px; width: 50px; background-color: #FEFDFE">
@@ -60,7 +60,7 @@ I denna analys har det valt att titta på hemsidor från företag som är i samm
 
 <div class="webpage-div">
     <h3 class="analysis-h3">H&M<h3>
-    <img src="{{ base_url }}../../../assets/img/hm.png">
+    <img src="{{ base_url }}../../../assets/img/hm.png" alt="hm">
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
         <td style="height: 50px; width: 50px; background-color: #FAF9F8">
@@ -87,7 +87,7 @@ I denna analys har det valt att titta på hemsidor från företag som är i samm
 
 <div class="webpage-div">
     <h3 class="analysis-h3">Gina Tricot<h3>
-    <img src="{{ base_url }}../../../assets/img/gc.png">
+    <img src="{{ base_url }}../../../assets/img/gc.png" alt="gc">
     <table style="border-spacing: 4px; border-collapse: separate">
         <tr>
         <td style="height: 50px; width: 50px; background-color: #B0A6B8">
@@ -127,9 +127,9 @@ Som tidigare nämt så har mycket liheter hittats i dessa tre företagen, men de
 <h2 class="analysis-h2">Referenser</h2>
 
 <p>Adobe color</p>
-<p class="analysis-link"><a href="https://www.zara.com/es/">Zara - hemsida</a></p>
-<p class="analysis-link"><a href="https://www2.hm.com/es_es/index.html">HM - hemsida</a></p>
-<p class="analysis-link"><a href="https://www.ginatricot.com/eu">Gina Tricot -  hemsida</a></p>
+<p class="analysis-link"><a href="https://www.zara.com/es/" aria-label="zara">Zara - hemsida</a></p>
+<p class="analysis-link"><a href="https://www2.hm.com/es_es/index.html" aria-label="hm">HM - hemsida</a></p>
+<p class="analysis-link"><a href="https://www.ginatricot.com/eu" aria-label="gina tricot">Gina Tricot -  hemsida</a></p>
 
 <h2 class="analysis-h2">Övrigt</h2>
 

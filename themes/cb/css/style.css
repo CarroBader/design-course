@@ -6792,7 +6792,7 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 }
 
 .report-link {
-  color: #8c6b26;
+  color: #fff;
 }
 
 ul {
@@ -6821,6 +6821,10 @@ h2 {
   height: 10em;
   border: 0;
   background-color: #152238;
+}
+
+.nav a {
+  color: #fff !important;
 }
 
 .footer {
@@ -6907,7 +6911,8 @@ video {
 }
 
 .analysis-link a {
-  color: #8c6b26 !important;
+  color: #152238 !important;
+  font-weight: 700;
 }
 
 /* Footer */
@@ -6920,7 +6925,7 @@ video {
 }
 
 .footer-text {
-  color: #8c6b26 !important;
+  color: #fff !important;
 }
 
 .headline-margin {

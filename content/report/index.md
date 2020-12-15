@@ -10,7 +10,7 @@ Template: report
     <h2>Kmom01</h2>
     <div class="headline-box"></div>
     <p class="desc-report">Ramverk, innehåll, style</p>
-    <a href="report/reports/kmom01">
+    <a href="report/reports/kmom01" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
@@ -19,7 +19,7 @@ Template: report
     <h2>Kmom02</h2>
     <div class="headline-box"></div>
     <p class="desc-report">SASS och typografi</p>
-    <a href="report/reports/kmom02">
+    <a href="report/reports/kmom02" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
@@ -28,7 +28,7 @@ Template: report
     <h2>Kmom03</h2>
     <div class="headline-box"></div>
     <p class="desc-report">Layout</p>
-    <a href="report/reports/kmom03">
+    <a href="report/reports/kmom03" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
@@ -37,7 +37,7 @@ Template: report
     <h2>Kmom04</h2>
     <div class="headline-box"></div>
     <p class="desc-report">Färg</p>
-    <a href="report/reports/kmom04">
+    <a href="report/reports/kmom04" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
@@ -46,7 +46,7 @@ Template: report
     <h2>Kmom05</h2>
     <div class="headline-box"></div>
     <p class="desc-report">Bilder</p>
-    <a href="report/reports/kmom05">
+    <a href="report/reports/kmom05" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
@@ -55,7 +55,7 @@ Template: report
     <h2>Kmom06</h2>
     <div class="headline-box"></div>
     <p class="desc-report">Tillgänglighet och prestanda</p>
-    <a href="report/reports/kmom06">
+    <a href="report/reports/kmom06" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
@@ -64,7 +64,7 @@ Template: report
     <h2>Kmom10</h2>
     <div class="headline-box"></div>
     <p class="desc-report">Projekt och examination</p>
-    <a href="report/reports/kmom10">
+    <a href="report/reports/kmom10" aria-label="report">
         <i class="far fa-arrow-alt-circle-right"></i>
     </a>
 </div>
